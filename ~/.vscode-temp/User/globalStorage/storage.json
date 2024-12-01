@@ -770,8 +770,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -780,8 +779,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1714,9 +1712,10 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/thiago/Trilhas-de-Aprendizagem/~/.vscode-temp/Backups/1733018297948",
+            "folder": "file:///home/thiago/Trilhas-de-Aprendizagem",
+            "backupPath": "/home/thiago/Trilhas-de-Aprendizagem/~/.vscode-temp/Backups/ec28b4a845c785c0f1b51e2cb5a7a4bd",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 1472,
                 "y": 156,
                 "width": 1023,
