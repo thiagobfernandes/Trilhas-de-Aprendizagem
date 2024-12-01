@@ -1,0 +1,69 @@
+2024-11-30 22:58:22.308 [info] [main] Log level: Info
+2024-11-30 22:58:22.308 [info] [main] Validating found git in: "git"
+2024-11-30 22:58:22.308 [info] [main] Using git "2.43.0" from "git"
+2024-11-30 22:58:22.308 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-30 22:58:22.309 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-30 22:58:45.151 [info] [main] Log level: Info
+2024-11-30 22:58:45.151 [info] [main] Validating found git in: "git"
+2024-11-30 22:58:45.151 [info] [main] Using git "2.43.0" from "git"
+2024-11-30 22:58:45.151 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-30 22:58:45.151 [info] > git rev-parse --show-toplevel [35ms]
+2024-11-30 22:58:45.173 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-11-30 22:58:45.202 [info] [Model][openRepository] Opened repository: /home/thiago/Trilhas-de-Aprendizagem
+2024-11-30 22:58:45.253 [info] > git rev-parse --show-toplevel [21ms]
+2024-11-30 22:58:45.254 [info] > git config --get commit.template [34ms]
+2024-11-30 22:58:45.312 [info] > git rev-parse --show-toplevel [42ms]
+2024-11-30 22:58:45.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-11-30 22:58:45.353 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/thiago/Trilhas-de-Aprendizagem/.git/refs/remotes/origin/main'
+2024-11-30 22:58:45.354 [info] > git rev-parse --show-toplevel [14ms]
+2024-11-30 22:58:45.359 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-30 22:58:45.366 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2024-11-30 22:58:45.389 [info] > git status -z -uall [15ms]
+2024-11-30 22:58:45.394 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-30 22:58:45.442 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-11-30 22:58:45.467 [info] > git config --local branch.main.vscode-merge-base [12ms]
+2024-11-30 22:58:45.467 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-30 22:58:45.477 [info] > git config --get commit.template [37ms]
+2024-11-30 22:58:45.482 [info] > git reflog main --grep-reflog=branch: Created from *. [6ms]
+2024-11-30 22:58:45.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [76ms]
+2024-11-30 22:58:45.581 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [89ms]
+2024-11-30 22:58:45.603 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/thiago/Trilhas-de-Aprendizagem/.git/refs/remotes/origin/main'
+2024-11-30 22:58:45.607 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-30 22:58:45.629 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [38ms]
+2024-11-30 22:58:45.642 [info] > git status -z -uall [24ms]
+2024-11-30 22:58:45.642 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-11-30 22:58:45.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-11-30 22:58:45.686 [info] > git config --local branch.main.vscode-merge-base origin/main [47ms]
+2024-11-30 22:58:45.706 [info] > git config --local branch.main.vscode-merge-base [20ms]
+2024-11-30 22:58:45.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [17ms]
+2024-11-30 22:58:45.757 [info] > git config --get commit.template [52ms]
+2024-11-30 22:58:45.800 [info] > git merge-base refs/heads/main refs/remotes/origin/main [45ms]
+2024-11-30 22:58:45.965 [info] > git diff --name-status -z --diff-filter=ADMR 64bedad972e8a02ab4b19d6b018247be4c795a93...refs/remotes/origin/main [155ms]
+2024-11-30 22:58:45.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2024-11-30 22:58:46.009 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/thiago/Trilhas-de-Aprendizagem/.git/refs/remotes/origin/main'
+2024-11-30 22:58:46.010 [info] > git check-ignore -v -z --stdin [30ms]
+2024-11-30 22:58:46.038 [info] > git rev-parse refs/remotes/origin/main [29ms]
+2024-11-30 22:58:46.197 [info] > git status -z -uall [131ms]
+2024-11-30 22:58:46.197 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [107ms]
+2024-11-30 22:58:48.688 [info] > git show --textconv :src/trilha3/veiculo.ts [109ms]
+2024-11-30 22:58:48.721 [info] > git ls-files --stage -- /home/thiago/Trilhas-de-Aprendizagem/src/trilha3/veiculo.ts [100ms]
+2024-11-30 22:58:50.296 [info] > git config --get commit.template [76ms]
+2024-11-30 22:58:50.325 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-30 22:58:50.361 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/thiago/Trilhas-de-Aprendizagem/.git/refs/remotes/origin/main'
+2024-11-30 22:58:50.369 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2024-11-30 22:58:50.448 [info] > git status -z -uall [45ms]
+2024-11-30 22:58:50.454 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2024-11-30 22:58:55.511 [info] > git config --get commit.template [16ms]
+2024-11-30 22:58:55.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-30 22:58:55.519 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/thiago/Trilhas-de-Aprendizagem/.git/refs/remotes/origin/main'
+2024-11-30 22:58:55.521 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-30 22:58:55.538 [info] > git status -z -uall [9ms]
+2024-11-30 22:58:55.540 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-30 22:59:02.940 [info] > git config --get commit.template [14ms]
+2024-11-30 22:59:02.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-30 22:59:02.956 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/thiago/Trilhas-de-Aprendizagem/.git/refs/remotes/origin/main'
+2024-11-30 22:59:02.960 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-11-30 22:59:02.987 [info] > git status -z -uall [10ms]
+2024-11-30 22:59:02.990 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-30 22:59:04.431 [info] > git ls-files --stage -- /home/thiago/Trilhas-de-Aprendizagem/src/trilha3/veiculo.ts [2ms]
+2024-11-30 22:59:04.451 [info] > git show --textconv :src/trilha3/veiculo.ts [2ms]
